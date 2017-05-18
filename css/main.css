@@ -1,7 +1,7 @@
 * {
   color:#212121;
 }
-
+/*CSS Section Portada*/
 header {
   background-image: url("../images/bg.jpg");
   background-size: cover;
@@ -16,4 +16,11 @@ hr {
   display: flex;
   align-items: center;
   height: 100vh;
+}
+/*CSS Section POrtfolio*/
+.center h3, h5{
+	text-transform: uppercase;
+}
+.first-row{
+	margin-bottom: 0 !important;
 }
