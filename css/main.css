@@ -9,7 +9,9 @@ header {
   background-position:top;
   height: 100vh;
 }
-
+hr {
+  width: 10%;
+}
 #portada .skill{
   display: flex;
   align-items: center;
