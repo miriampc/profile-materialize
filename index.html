@@ -21,63 +21,67 @@
     </section>
   </header>
   <main>
-    <section id="aboutme"></section>
-    <section id="profile"></section>
-    <section id="contact" class="grey lighten-2">
-      <div class="container section">
-          <div class="row">
-            <div class="row center section">
-              <div class="col s12">
-                <h3>CONTACT</h3>
-                <h5>GET IN TOUCH WITH ME</h5>
-                <hr>
+      <section id="aboutme"></section>
+      <section id="profile"></section>
+      <section id="contact" class="grey lighten-2">
+        <div class="container section">
+            <div class="row">
+              <div class="row center section">
+                <div class="col s12">
+                  <h3>CONTACT</h3>
+                  <h5>GET IN TOUCH WITH ME</h5>
+                  <hr>
+                </div>
               </div>
+                <form class="col s12 m6">
+                  <div class="row">
+                    <div class="input-field col s6">
+                      <input id="first_name" type="text" class="validate">
+                      <label for="first_name">First Name</label>
+                    </div>
+                    <div class="input-field col s6">
+                      <input id="last_name" type="text" class="validate">
+                      <label for="last_name">Last Name</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <input id="email" type="email" class="validate">
+                      <label for="email" data-error="wrong" data-success="right">E-Mail</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <textarea id="message" class="materialize-textarea"></textarea>
+                      <label for="message">Your message</label>
+                    </div>
+                  </div>
+                  <button class="btn waves-effect waves-light left" type="submit" name="action">Submit</button>
+                </form>
+                <div class="col s11 m5 offset-s1 offset-m1">
+                  <div class="row">
+                    <p>ADDRESS</p>
+                    <p>Nr. 6, 21 Awesome Street, London, UK</p>
+                  </div>
+                  <div class="row">
+                    <p>PHONE NUMBER</p>
+                    <p>+91 9912776151</p>
+                  </div>
+                  <div class="row">
+                    <p>WEB SITE</p>
+                    <p>qnimate.com</p>
+                  </div>
+                </div>
             </div>
-              <form class="col s12 m6">
-                <div class="row">
-                  <div class="input-field col s6">
-                    <input id="first_name" type="text" class="validate">
-                    <label for="first_name">First Name</label>
-                  </div>
-                  <div class="input-field col s6">
-                    <input id="last_name" type="text" class="validate">
-                    <label for="last_name">Last Name</label>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="input-field col s12">
-                    <input id="email" type="email" class="validate">
-                    <label for="email" data-error="wrong" data-success="right">E-Mail</label>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="input-field col s12">
-                    <textarea id="message" class="materialize-textarea"></textarea>
-                    <label for="message">Your message</label>
-                  </div>
-                </div>
-                <button class="btn waves-effect waves-light left" type="submit" name="action">Submit</button>
-              </form>
-              <div class="col s11 m5 offset-s1 offset-m1">
-                <div class="row">
-                  <p>ADDRESS</p>
-                  <p>Nr. 6, 21 Awesome Street, London, UK</p>
-                </div>
-                <div class="row">
-                  <p>PHONE NUMBER</p>
-                  <p>+91 9912776151</p>
-                </div>
-                <div class="row">
-                  <p>WEB SITE</p>
-                  <p>qnimate.com</p>
-                </div>
-              </div>
-          </div>
-      </div>
-    </section>
-    <footer></footer>
+        </div>
+      </section>
   </main>
-
+  <footer class="footer-copyright blue-grey darken-1">
+      <div class="container white-text section">
+        &copy; 2017 Copyright
+        <a class="grey-text text-lighten-4 right" href="#!">andrea_bernales@gmail.com</a>
+      </div>
+  </footer>
   <script type="text/javascript" src="js/jquery.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
 </body>
