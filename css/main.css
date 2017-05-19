@@ -17,16 +17,16 @@ hr {
   align-items: center;
   height: 100vh;
 }
-/*CSS Section POrtfolio*/
+/*CSS Section About me*/
+.me img{
+  width: 40%;
+  height: 40%;
+  margin-top: 15px;
+}
+/*CSS Section Portfolio*/
 .center h3, h5{
 	text-transform: uppercase;
 }
 .first-row{
 	margin-bottom: 0 !important;
-}
-
-.me img{
-  width: 40%;
-  height: 40%;
-  margin-top: 15px;
 }
