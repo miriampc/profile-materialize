@@ -1,12 +1,14 @@
 # PROFILE - MATERIALIZE
-- La meta de este Proyecto es replicar un Portafolio de una Developer reutilizando las clases de Materialize.
+- La meta de este Proyecto es replicar un Portafolio de una Developer usando el Framework de  CSS Materialize reutilizando sus clases.
+- El tope máximo de líneas adicionales en CSS fue estimado en 150.
 - Para ello, el equipo distribuyó cada rama por sección a trabajar:
-  - About-me
-  - Portafolio
-  - Profile
-  - Footer
-  - Contact
   - Portada
+  - About-me
+  - Profile
+  - Contact
+  - Footer
+  - Portafolio
+  
  
  ## PORTADA
   - Sección que comprende el Header de nuestro HomePage.
